@@ -33,11 +33,10 @@ const Navbar = () => {
       </li>
     </>
   );
-  
-  
+
   return (
     <div>
-      <div className="navbar bg-slate-800 text-white">
+      <div className="navbar bg-slate-900 text-white">
         <div className="navbar-start">
           <div className="dropdown">
             <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -64,7 +63,7 @@ const Navbar = () => {
             </ul>
           </div>
           <h3 className="font-bold text-xl">
-            SH<span className="text-teal-500">O</span>EB
+            SH<span className="text-teal-400">O</span>EB
           </h3>
         </div>
         <div className="navbar-center hidden lg:flex">
