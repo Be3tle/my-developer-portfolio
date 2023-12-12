@@ -1,4 +1,14 @@
 const Header = () => {
+  const handlDownload = () => {
+    const pdfUrl = '/assets/Resume.pdf';
+    const link = document.createElement('a');
+    link.href = pdfUrl;
+    link.download = 'document.pdf'; // specify the filename
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  };
+
   return (
     <div>
       <div className="hero min-h-screen bg-base-200 text-white">
@@ -21,7 +31,10 @@ const Header = () => {
               collaborative projects and eager to lead dynamic teams in creating
               meaningful software solutions.
             </p>
-            <button className="btn bg-teal-400 hover:bg-teal-500 border- text-black ">
+            <button
+              onClick={handlDownload}
+              className="btn bg-teal-400 hover:bg-teal-500 border- text-black "
+            >
               Download CV
             </button>
           </div>
