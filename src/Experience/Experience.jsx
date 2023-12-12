@@ -3,7 +3,7 @@ const Experience = () => {
     <div>
       <div className="py-10 max-w-screen-2xl mx-auto text-slate-100 text-center bg-base-200">
         <p className="text-teal-400 text-lg">Education & Skills</p>
-        <h1 className="text-5xl font-semibold leading-tight  mt-10 mb-32">
+        <h1 className="text-5xl font-semibold leading-tight  mt-10 mb-20">
           Years of Experience
         </h1>
         <div className="grid grid-cols-2 space-x-8">
@@ -68,9 +68,58 @@ const Experience = () => {
                 <h1 className="text-5xl font-bold">
                   Sagardi Islamia Kamil Madrasah
                 </h1>
-                <p className="py-6">Completed HSC in Humanities</p>
+                <p className="py-6">Had the chance to completed HSC in Humanities with a great exposure to ICT</p>
               </div>
             </div>
+          </div>
+
+          <div className="bg-slate-950 text-left py-2 my-4 mt-20 rounded">
+            <p className="pl-10">HTML</p>
+            <progress
+              className="progress progress-success"
+              value="90"
+              max="100"
+            ></progress>
+          </div>
+          <div className="bg-slate-950 text-left py-2 my-4 mt-20 rounded">
+            <p className="pl-10">Tailwind CSS</p>
+            <progress
+              className="progress progress-success"
+              value="90"
+              max="100"
+            ></progress>
+          </div>
+          <div className="bg-slate-950 text-left py-2 my-4 rounded">
+            <p className="pl-10">JavaScript</p>
+            <progress
+              className="progress progress-success"
+              value="80"
+              max="100"
+            ></progress>
+          </div>
+          <div className="bg-slate-950 text-left py-2 my-4 rounded">
+            <p className="pl-10">ReactJS</p>
+            <progress
+              className="progress progress-success"
+              value="80"
+              max="100"
+            ></progress>
+          </div>
+          <div className="bg-slate-950 text-left py-2 my-4 rounded">
+            <p className="pl-10">ExpressJS</p>
+            <progress
+              className="progress progress-success"
+              value="70"
+              max="100"
+            ></progress>
+          </div>
+          <div className="bg-slate-950 text-left py-2 my-4 rounded">
+            <p className="pl-10">MongoDB</p>
+            <progress
+              className="progress progress-success"
+              value="80"
+              max="100"
+            ></progress>
           </div>
         </div>
       </div>

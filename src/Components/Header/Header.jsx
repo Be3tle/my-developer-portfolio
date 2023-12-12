@@ -1,7 +1,7 @@
 const Header = () => {
   return (
     <div>
-      <div className="hero min-h-screen bg-black text-white">
+      <div className="hero min-h-screen bg-base-200 text-white">
         <div className="hero-content flex-col lg:flex-row-reverse gap-56">
           <img
             src="assets/1702298976011.png"
