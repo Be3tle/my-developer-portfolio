@@ -1,4 +1,5 @@
 import Header from '../../../Components/Header/Header';
+import Experience from '../../../Experience/Experience';
 import Services from '../../../Services/Services';
 
 const Home = () => {
@@ -6,6 +7,7 @@ const Home = () => {
     <div>
       <Header></Header>
       <Services></Services>
+      <Experience></Experience>
     </div>
   );
 };

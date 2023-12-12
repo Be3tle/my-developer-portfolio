@@ -69,7 +69,9 @@ const Navbar = () => {
         <ul className="menu menu-horizontal px-1">{navItems}</ul>
       </div>
       <div className="navbar-end">
-        <a className="btn bg-teal-400 hover:bg-teal-500 border-0 text-black rounded-none">Hire Me</a>
+        <a className="btn bg-teal-400 hover:bg-teal-500 border-0 text-black">
+          Hire Me
+        </a>
       </div>
     </div>
   );

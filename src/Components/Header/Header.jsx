@@ -4,7 +4,7 @@ const Header = () => {
       <div className="hero min-h-screen bg-black text-white">
         <div className="hero-content flex-col lg:flex-row-reverse gap-56">
           <img
-            src="../../../public/assets/1702298976011.png"
+            src="assets/1702298976011.png"
             className="max-w-sm rounded-full shadow-xl border-teal-400 border-2"
           />
           <div className="max-w-2xl">
@@ -21,7 +21,7 @@ const Header = () => {
               collaborative projects and eager to lead dynamic teams in creating
               meaningful software solutions.
             </p>
-            <button className="btn bg-teal-400 hover:bg-teal-500 border-0 text-black rounded-none">
+            <button className="btn bg-teal-400 hover:bg-teal-500 border- text-black ">
               Download CV
             </button>
           </div>
