@@ -1,7 +1,7 @@
 const Footer = () => {
   return (
     <div>
-      <footer className="footer items-center p-4 bg-neutral text-neutral-content">
+      <footer className="footer items-center p-4 bg-slate-900 text-neutral-content">
         <aside className="items-center grid-flow-col">
           
           <p>Shoeb © 2024 - All right reserved</p>
