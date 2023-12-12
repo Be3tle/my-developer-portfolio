@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom';
+
 const Navbar = () => {
   const navItems = (
     <>
@@ -61,9 +63,11 @@ const Navbar = () => {
             {navItems}
           </ul>
         </div>
-        <h3 className="font-bold text-xl">
-          SH<span className="text-teal-400">O</span>EB
-        </h3>
+        <Link to="/">
+          <h3 className="font-bold text-xl">
+            SH<span className="text-teal-400">O</span>EB
+          </h3>
+        </Link>
       </div>
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1">{navItems}</ul>
