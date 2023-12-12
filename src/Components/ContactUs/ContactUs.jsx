@@ -7,7 +7,7 @@ const ContactUs = () => {
 
   const sendEmail = (e) => {
     e.preventDefault();
-
+ 
     emailjs
       .sendForm(
         'service_ex0plgd',
@@ -38,7 +38,7 @@ const ContactUs = () => {
     <div className="bg-base-200 pb-8">
       <div className="text-center pt-16">
         <p className="text-teal-400 text-lg">Contact Me</p>
-        <h1 className="text-5xl font-semibold leading-tight  mt-5 mb-28">
+        <h1 className="text-2xl md:text-5xl font-semibold leading-tight  mt-5 mb-16 md:mb-28">
           I Want to Hear From You
         </h1>
       </div>

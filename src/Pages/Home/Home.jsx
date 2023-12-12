@@ -1,8 +1,8 @@
+import ContactUs from '../../Components/ContactUs/ContactUs';
+import Experience from '../../Components/Experience/Experience';
 import Header from '../../Components/Header/Header';
 import Projects from '../../Components/Projects/Projects';
-import ContactUs from '../../ContactUs/ContactUs';
-import Experience from '../../Experience/Experience';
-import Services from '../../Services/Services';
+import Services from '../../Components/Services/Services';
 
 const Home = () => {
   return (

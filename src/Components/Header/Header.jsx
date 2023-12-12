@@ -12,13 +12,13 @@ const Header = () => {
   return (
     <div>
       <div className="hero min-h-screen bg-base-200 text-white">
-        <div className="hero-content flex-col lg:flex-row-reverse gap-56">
+        <div className="hero-content flex-col lg:flex-row-reverse gap-20 md:gap-56">
           <img
             src="assets/1702298976011.png"
-            className="max-w-sm rounded-full shadow-xl border-teal-400 border-2"
+            className="max-w-sm mt-8 md:mt-0 rounded-full shadow-xl border-teal-400 border-2"
           />
           <div className="max-w-2xl">
-            <h1 className="text-5xl font-bold leading-snug">
+            <h1 className="text-2xl md:text-5xl font-bold leading-snug">
               HI, THIS IS SHOEB
               <br />
               WEB <span className="text-teal-400">DEVELOPER</span>
