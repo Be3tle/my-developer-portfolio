@@ -2,17 +2,17 @@ const Navbar = () => {
   const navItems = (
     <>
       <li>
-        <a>Home</a>
+        <a href="/">Home</a>
       </li>
       <li>
-        <a>About Us</a>
+        <a href="about-us">About Us</a>
       </li>
 
       <li>
-        <a>Services</a>
+        <a href="services">Services</a>
       </li>
       <li>
-        <a>Projects</a>
+        <a href="projects">Projects</a>
       </li>
       <li>
         <details>
@@ -29,7 +29,7 @@ const Navbar = () => {
       </li>
 
       <li>
-        <a>Contact</a>
+        <a href="contact-us">Contact</a>
       </li>
     </>
   );
@@ -69,7 +69,10 @@ const Navbar = () => {
         <ul className="menu menu-horizontal px-1">{navItems}</ul>
       </div>
       <div className="navbar-end">
-        <a className="btn bg-teal-400 hover:bg-teal-500 border-0 text-black">
+        <a
+          href="contact-us"
+          className="btn bg-teal-400 hover:bg-teal-500 border-0 text-black"
+        >
           Hire Me
         </a>
       </div>
