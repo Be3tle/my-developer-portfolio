@@ -1,5 +1,5 @@
 const Header = () => {
-  const handlDownload = () => {
+  const handleDownload = () => {
     const pdfUrl = '/assets/Resume.pdf';
     const link = document.createElement('a');
     link.href = pdfUrl;
@@ -32,7 +32,7 @@ const Header = () => {
               meaningful software solutions.
             </p>
             <button
-              onClick={handlDownload}
+              onClick={handleDownload}
               className="btn bg-teal-400 hover:bg-teal-500 border- text-black "
             >
               Download CV
