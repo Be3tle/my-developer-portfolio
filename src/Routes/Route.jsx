@@ -7,6 +7,7 @@ import Projects from '../Components/Projects/Projects';
 import Experience from '../Components/Experience/Experience';
 import Services from '../Components/Services/Services';
 import ContactUs from '../Components/ContactUs/ContactUs';
+import Details from '../Components/Projects/Details/Details';
 
 const router = createBrowserRouter([
   {
@@ -32,6 +33,10 @@ const router = createBrowserRouter([
       {
         path: 'projects',
         element: <Projects></Projects>,
+      },
+      {
+        path: 'projects/:title',
+        element: <Details></Details>,
       },
     ],
   },
