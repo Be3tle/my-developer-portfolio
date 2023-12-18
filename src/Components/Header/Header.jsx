@@ -1,6 +1,6 @@
 const Header = () => {
   const handleDownload = () => {
-    const pdfUrl = '/assets/Resume.pdf';
+    const pdfUrl = 'assets/Resume - Abu Ratin Shoeb 2.pdf';
     const link = document.createElement('a');
     link.href = pdfUrl;
     link.download = 'document.pdf'; // specify the filename
