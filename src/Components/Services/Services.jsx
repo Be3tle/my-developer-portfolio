@@ -11,7 +11,7 @@ const Services = () => {
           Crafting stories through <br />
           development and innovation
         </h1>
-        <div className="grid grid-cols-1 md:grid-cols-3 mx-auto gap-10">
+        <div className="grid grid-cols-1 place-items-center lg:grid-cols-3 mx-auto gap-10">
           {/* 1 */}
           <div className="card w-96 h-80 flex border-[1px] border-gray-700 relative">
             <MdPublic className="text-9xl text-teal-400 absolute bottom-60 left-32" />
