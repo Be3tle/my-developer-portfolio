@@ -14,10 +14,12 @@ const Experience = () => {
                 <button className="btn border-[1px] mb-3 border-teal-400">
                   2023 - Present
                 </button>
-                <h1 className="text-2xl md:text-5xl font-bold">MERN Stack Developer</h1>
+                <h1 className="text-2xl md:text-5xl font-bold">
+                  Frontend Developer
+                </h1>
                 <p className="py-6">
                   {
-                    "As a beginner, I've hands-on experience with the MERN stack, showcasing my dedication to mastering full-stack development. I've independently built projects that highlight my proficiency in MongoDB, Express.js, React, and Node.js, laying the foundation for future professional contributions."
+                    "As a fresher, I've hands-on experience with ReactJS, showcasing my dedication to mastering frontend development. I've independently built projects that highlight my proficiency in React.js, Tailwind CSS, and API integration using Express.js laying the foundation for future professional contributions."
                   }
                 </p>
               </div>
@@ -31,7 +33,9 @@ const Experience = () => {
                 <button className="btn border-[1px] mb-3 border-teal-400">
                   2021 - 2023
                 </button>
-                <h1 className="text-2xl md:text-5xl font-bold">WordPress Developer</h1>
+                <h1 className="text-2xl md:text-5xl font-bold">
+                  WordPress Developer
+                </h1>
                 <p className="py-6">
                   {
                     "As a seasoned WordPress freelancer with 2 years of expertise, I've crafted dynamic and visually stunning websites, delivering tailored solutions that blend creativity with functionality for a diverse range of clients."
@@ -48,7 +52,9 @@ const Experience = () => {
                 <button className="btn border-[1px] mb-3 border-teal-400">
                   2019 - Present
                 </button>
-                <h1 className="text-2xl md:text-5xl font-bold">University of Dhaka</h1>
+                <h1 className="text-2xl md:text-5xl font-bold">
+                  University of Dhaka
+                </h1>
                 <p className="py-6">
                   {
                     "Pursuing a Bachelor's in English, diving into the world of literature and language to sharpen critical thinking and communication skills."
@@ -59,7 +65,7 @@ const Experience = () => {
           </div>
 
           {/* 4 */}
-          <div className="hero">
+          {/* <div className="hero">
             <div className="hero-content text-left">
               <div className="max-w-xl">
                 <button className="btn border-[1px] mb-3 border-teal-400">
@@ -74,7 +80,7 @@ const Experience = () => {
                 </p>
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
 
         {/* ------------- */}
