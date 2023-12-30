@@ -17,12 +17,12 @@ const Services = () => {
             <MdPublic className="text-9xl text-teal-400 absolute bottom-60 left-32" />
             <div className="p-10">
               <h2 className="text-2xl font-semibold my-10">
-                Fullstack Development
+                Frontend Development
               </h2>
               <p className="mt-2">
-                Elevate your web development with our MERN stack
+                Elevate your web development with our Frontend
                 expertise—crafting dynamic and scalable applications seamlessly
-                integrating MongoDB, Express.js, React, and Node.js for a robust
+                integrating MongoDB, Express.js, React, and TailwindCSS for a robust
                 user experience.
               </p>
             </div>
