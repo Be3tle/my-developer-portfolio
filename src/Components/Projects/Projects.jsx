@@ -13,7 +13,7 @@ const Projects = () => {
           Visit My Recent Portfolio
         </h1>
 
-        <div className="grid grid-cols-1 place-items-center lg:grid-cols-3 gap-5 mx-20 lg:pb-16">
+        <div className="grid grid-cols-1 place-items-center lg:grid-cols-3 gap-5 mx-20 lg:pb-20">
           {data?.map((project) => (
             <ProjectsCard key={project.id} project={project}></ProjectsCard>
           ))}
