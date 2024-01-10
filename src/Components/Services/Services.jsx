@@ -22,7 +22,7 @@ const Services = () => {
               <p className="mt-2">
                 Elevate your web development with our Frontend
                 expertise—crafting dynamic and scalable applications seamlessly
-                integrating MongoDB, Express.js, React, and TailwindCSS for a
+                integrating MongoDB, Express.js, React.js, and Node.js for a
                 robust user experience.
               </p>
             </div>
