@@ -29,7 +29,7 @@ const Experience = () => {
             <div className="hero-content text-left">
               <div className="max-w-xl">
                 <button className="btn border-[1px] mb-3 border-teal-400">
-                  2021 - 2023
+                  2022 - 2023
                 </button>
                 <h1 className="text-2xl md:text-5xl font-bold">
                   WordPress Developer
