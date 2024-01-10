@@ -17,10 +17,8 @@ const Experience = () => {
                 <h1 className="text-2xl md:text-5xl font-bold">
                   MERN Stack Developer
                 </h1>
-                <p className="py-6">
-                  {
-                    'I have acquired hands-on experience with ReactJS, demonstrating my commitment to mastering frontend development. Independently, I have completed projects that showcase my proficiency in building user interfaces using React.js. Additionally, I have gained valuable experience with Node.js, MongoDB, and Express.js for API integration, laying a solid foundation for my future professional contributions.'
-                  }
+                <p className="py-6 text-justify">
+                  {`As a fresher, I've gained hands-on experience with ReactJS, showcasing my commitment to frontend development. I've independently completed projects highlighting proficiency in React.js for UI and using Node.js, MongoDB, and Express.js for API integration, establishing a strong foundation for future contributions.`}
                 </p>
               </div>
             </div>
