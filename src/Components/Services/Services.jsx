@@ -4,8 +4,6 @@ import { TiCodeOutline } from 'react-icons/ti';
 import { useEffect } from 'react';
 import Aos from 'aos';
 import 'aos/dist/aos.css';
-
-
 const Services = () => {
   useEffect(() => {
     Aos.init({
