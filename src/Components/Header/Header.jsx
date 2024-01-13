@@ -14,7 +14,7 @@ const Header = () => {
       <div className="hero-content flex-col lg:flex-row-reverse  gap-20 lg:gap-56">
         <img
           src="assets/1702298976011.png"
-          className="max-w-xs lg:max-w-sm md:mt-20 lg:mt-0 rounded-full shadow-xl border-teal-400 border-2"
+          className="max-w-xs lg:max-w-sm md:mt-20 lg:mt-0 bg-black rounded-full shadow-xl border-teal-400 border-2"
         />
         <div className="max-w-2xl">
           <h1 className="text-2xl md:text-5xl font-bold leading-snug">
@@ -25,10 +25,10 @@ const Header = () => {
           <p className="py-9 text-neutral-300 text-justify">
             MERN stack enthusiast on a mission to level up from coding to
             leadership. I specialize in building web applications and am
-            determined to become a Tech Lead. Passionate about turning creative concepts
-            into functional code, I am always up for collaborative projects and
-            eager to lead dynamic teams in creating meaningful software
-            solutions.
+            determined to become a Tech Lead. Passionate about turning creative
+            concepts into functional code, I am always up for collaborative
+            projects and eager to lead dynamic teams in creating meaningful
+            software solutions.
           </p>
           <button
             onClick={handleDownload}
