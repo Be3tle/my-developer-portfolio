@@ -6,7 +6,7 @@
     "img2": "https://i.postimg.cc/D076ytwQ/blad2.png",
     "img3": "https://i.postimg.cc/nrxR9X0D/blad3.png",
     "subtitle": "Blood Donation Platform",
-    "description": ""
+    "link": "https://blad-donate.web.app/"
   },
 
   {
@@ -16,7 +16,7 @@
     "img2": "https://i.postimg.cc/L85yPKBN/boipoka2.png",
     "img3": "https://i.postimg.cc/KvZpZgKX/boipoka3.png",
     "subtitle": "Browse and Borrow Available Books",
-    "description": ""
+    "link": "https://boip0ka.web.app/"
   },
 
   {
@@ -26,6 +26,6 @@
     "img2": "https://i.postimg.cc/W4JX9GyZ/gstorm2.png",
     "img3": "https://i.postimg.cc/BnzmcYms/gstorm3.png",
     "subtitle": "For ESport Freaks",
-    "description": ""
+    "link": "https://electon-gadgetshop.web.app/"
   }
 ]

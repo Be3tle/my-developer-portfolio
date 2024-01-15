@@ -6,10 +6,10 @@ import Typography from '@mui/material/Typography';
 import { CardActionArea } from '@mui/material';
 
 const ProjectsCard = ({ project }) => {
-  const { img1, title, subtitle } = project || {};
+  const { img1, title, subtitle, link } = project || {};
   return (
     <div>
-      <Link to={`/projects/${title}`} state={title}>
+      <Link to={link} state={title}>
         <Card sx={{ maxWidth: 345 }}>
           <CardActionArea>
             <CardMedia
