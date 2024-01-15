@@ -9,7 +9,7 @@ const ProjectsCard = ({ project }) => {
   const { img1, title, subtitle, link } = project || {};
   return (
     <div>
-      <Link to={link} state={title}>
+      <Link to={link} state={title} target="_blank">
         <Card sx={{ maxWidth: 345 }}>
           <CardActionArea>
             <CardMedia
