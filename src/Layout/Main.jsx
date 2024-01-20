@@ -3,7 +3,7 @@ import Navbar from '../Components/Navbar/Navbar';
 import Footer from '../Components/Footer/Footer';
 const Main = () => {
   return (
-    <div className="max-w-screen-2xl mx-auto">
+    <div className="max-w-screen-2xl mx-auto scroll-smooth">
       <Navbar></Navbar>
       <Outlet></Outlet>
       <Footer></Footer>
