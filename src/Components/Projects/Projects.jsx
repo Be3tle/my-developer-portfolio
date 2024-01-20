@@ -12,7 +12,10 @@ const Projects = () => {
       }, []);
   });
   return (
-    <div className="py-10 text-slate-100 text-center bg-slate-950">
+    <div
+      id="projects"
+      className="py-10 text-slate-100 text-center bg-slate-950"
+    >
       <div className="max-w-screen-xl mx-auto">
         <p className="text-teal-400 text-lg">My Portfolio</p>
         <h1 className="text-2xl md:text-5xl font-semibold leading-tight  mt-10 mb-20 md:mb-32">
