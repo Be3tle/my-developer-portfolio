@@ -4,7 +4,10 @@ import { TiCodeOutline } from 'react-icons/ti';
 
 const Services = () => {
   return (
-    <div className="py-20 text-slate-100 text-center bg-slate-950">
+    <div
+      id="services"
+      className="py-20 text-slate-100 text-center bg-slate-950"
+    >
       <div className="mx-auto max-w-screen-xl">
         <p className="text-teal-400 text-lg">My Service</p>
         <h1 className="text-2xl md:text-5xl font-semibold leading-tight  mt-10 mb-32">
