@@ -1,6 +1,6 @@
 const Stats = () => {
   return (
-    <div className="stats shadow bg-black text-gray-200">
+    <div id="stats" className="stats shadow bg-black text-gray-200">
       <div className="stat">
         <div className="stat-figure text-primary">
           <svg
