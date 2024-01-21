@@ -19,7 +19,7 @@
   },
 
   {
-    "id": "2",
+    "id": "3",
     "title": "boipoka",
     "img1": "https://i.postimg.cc/G2wz6B05/boipoka1.png",
     "img2": "https://i.postimg.cc/L85yPKBN/boipoka2.png",
@@ -29,7 +29,16 @@
   },
 
   {
-    "id": "3",
+    "id": "4",
+    "title": "SkillCraze",
+    "img1": "https://i.postimg.cc/pTTShqLp/skillcraze.png",
+    "img2": "https://i.postimg.cc/W4JX9GyZ/gstorm2.png",
+    "img3": "https://i.postimg.cc/BnzmcYms/gstorm3.png",
+    "subtitle": "Elevate Your Tech Game!",
+    "link": "https://skill-craze.web.app"
+  },
+  {
+    "id": "5",
     "title": "Electon - Gadgetshop",
     "img1": "https://i.postimg.cc/QdQwRFzx/electon.png",
     "img2": "https://i.postimg.cc/W4JX9GyZ/gstorm2.png",
@@ -38,7 +47,7 @@
     "link": "https://electon-gadgetshop.web.app"
   },
   {
-    "id": "4",
+    "id": "6",
     "title": "Gamestorm",
     "img1": "https://i.postimg.cc/wT0f3TJ1/gstorm1.png",
     "img2": "https://i.postimg.cc/W4JX9GyZ/gstorm2.png",
