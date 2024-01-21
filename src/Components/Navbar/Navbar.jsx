@@ -15,21 +15,6 @@ const Navbar = () => {
       <li>
         <a href="/#projects">Projects</a>
       </li>
-
-      {/* <li>
-        <details>
-          <summary>Blog</summary>
-          <ul className="p-2">
-            <li>
-              <a>Blog List</a>
-            </li>
-            <li>
-              <a>Blog Details</a>
-            </li>
-          </ul>
-        </details>
-      </li> */}
-
       <li>
         <a href="/#contact">Contact</a>
       </li>
