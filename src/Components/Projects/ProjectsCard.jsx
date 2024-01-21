@@ -18,14 +18,6 @@ const ProjectsCard = ({ project }) => {
               image={img1}
               alt="green iguana"
             />
-            <CardContent>
-              <Typography gutterBottom variant="h5" component="div">
-                {title}
-              </Typography>
-              <Typography variant="body2" color="text.secondary">
-                {subtitle}
-              </Typography>
-            </CardContent>
           </CardActionArea>
         </Card>
       </Link>
