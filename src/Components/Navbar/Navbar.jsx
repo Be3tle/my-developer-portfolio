@@ -16,7 +16,7 @@ const Navbar = () => {
         <a href="/#projects">Projects</a>
       </li>
 
-      <li>
+      {/* <li>
         <details>
           <summary>Blog</summary>
           <ul className="p-2">
@@ -28,7 +28,7 @@ const Navbar = () => {
             </li>
           </ul>
         </details>
-      </li>
+      </li> */}
 
       <li>
         <a href="/#contact">Contact</a>
