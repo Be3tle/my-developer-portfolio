@@ -6,7 +6,7 @@ import Services from '../../Components/Services/Services';
 
 const Home = () => {
   return (
-    <div className="scroll-smooth">
+    <div>
       <Header></Header>
       <Services></Services>
       <Experience></Experience>
