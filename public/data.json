@@ -21,11 +21,20 @@
 
   {
     "id": "3",
+    "title": "Electon - Gadgetshop",
+    "img1": "https://i.postimg.cc/QdQwRFzx/electon.png",
+    "img2": "https://i.postimg.cc/W4JX9GyZ/gstorm2.png",
+    "img3": "https://i.postimg.cc/BnzmcYms/gstorm3.png",
+    "subtitle": "Elevate Your Tech Game!",
+    "link": "https://electon-gadgetshop.web.app"
+  },
+  {
+    "id": "4",
     "title": "Gamestorm",
     "img1": "https://i.postimg.cc/wT0f3TJ1/gstorm1.png",
     "img2": "https://i.postimg.cc/W4JX9GyZ/gstorm2.png",
     "img3": "https://i.postimg.cc/BnzmcYms/gstorm3.png",
     "subtitle": "For ESport Freaks",
-    "link": "https://gamestorm-react-auth-d9c59.web.app/"
+    "link": "https://gamestorm-react-auth-d9c59.web.app"
   }
 ]
