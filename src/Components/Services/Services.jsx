@@ -1,8 +1,18 @@
 import { MdPublic } from 'react-icons/md';
 import { DiResponsive } from 'react-icons/di';
 import { TiCodeOutline } from 'react-icons/ti';
+import { useEffect } from 'react';
+import Aos from 'aos';
+import 'aos/dist/aos.css';
 
 const Services = () => {
+  useEffect(() => {
+    Aos.init({
+      duration: 1000,
+      easing: 'ease-in-out',
+      once: true,
+    });
+  }, []);
   return (
     <div
       id="services"
@@ -14,7 +24,10 @@ const Services = () => {
           Crafting stories through <br />
           development and innovation
         </h1>
-        <div className="grid grid-cols-1 place-items-center lg:grid-cols-3 mx-auto gap-10">
+        <div
+          data-aos="zoom-in"
+          className="grid grid-cols-1 place-items-center lg:grid-cols-3 mx-auto gap-10"
+        >
           {/* 1 */}
           <div className="card w-96 h-80 flex border-[1px] border-gray-700 relative">
             <MdPublic className="text-9xl text-teal-400 absolute bottom-60 left-32" />
