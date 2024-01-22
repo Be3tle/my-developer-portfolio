@@ -1,5 +1,7 @@
 import { useEffect, useState } from 'react';
 import ProjectsCard from './ProjectsCard';
+import Aos from 'aos';
+import 'aos/dist/aos.css';
 
 const Projects = () => {
   const [projects, setProjects] = useState();
@@ -11,6 +13,14 @@ const Projects = () => {
         setProjects(data);
       }, []);
   });
+
+  useEffect(() => {
+    Aos.init({
+      duration: 1000,
+      easing: 'ease-in-out',
+      once: true,
+    });
+  }, []);
   return (
     <div
       id="projects"
@@ -22,7 +32,10 @@ const Projects = () => {
           Visit My Recent Portfolio
         </h1>
 
-        <div className="grid grid-cols-1 place-items-center lg:grid-cols-3 gap-5 mx-20 pb-36">
+        <div
+          data-aos="zoom-out"
+          className="grid grid-cols-1 place-items-center lg:grid-cols-3 gap-5 mx-20 pb-36"
+        >
           {projects?.map((project) => (
             <ProjectsCard key={project.id} project={project}></ProjectsCard>
           ))}
