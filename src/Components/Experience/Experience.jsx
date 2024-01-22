@@ -97,7 +97,10 @@ const Experience = () => {
       {/* ------------- */}
 
       <div className=" grid grid-cols-1 md:grid-cols-2 gap-5 mx-20 pt-20">
-        <div className="bg-slate-950 text-left py-2 my-4 rounded">
+        <div
+          data-aos="fade-right"
+          className="bg-slate-950 text-left py-2 my-4 rounded"
+        >
           <p className="pl-10">HTML</p>
           <progress
             className="progress progress-success"
@@ -105,6 +108,7 @@ const Experience = () => {
             max="100"
           ></progress>
         </div>
+
         <div
           data-aos="fade-left"
           className="bg-slate-950 text-left py-2 my-4 rounded"
@@ -116,7 +120,11 @@ const Experience = () => {
             max="100"
           ></progress>
         </div>
-        <div className="bg-slate-950 text-left py-2 my-4 rounded">
+
+        <div
+          data-aos="fade-right"
+          className="bg-slate-950 text-left py-2 my-4 rounded"
+        >
           <p className="pl-10">JavaScript</p>
           <progress
             className="progress progress-success"
@@ -124,6 +132,7 @@ const Experience = () => {
             max="100"
           ></progress>
         </div>
+
         <div
           data-aos="fade-left"
           className="bg-slate-950 text-left py-2 my-4 rounded"
@@ -135,7 +144,11 @@ const Experience = () => {
             max="100"
           ></progress>
         </div>
-        <div className="bg-slate-950 text-left py-2 my-4 rounded">
+
+        <div
+          data-aos="fade-right"
+          className="bg-slate-950 text-left py-2 my-4 rounded"
+        >
           <p className="pl-10">ExpressJS</p>
           <progress
             className="progress progress-success"
@@ -143,6 +156,7 @@ const Experience = () => {
             max="100"
           ></progress>
         </div>
+
         <div
           data-aos="fade-left"
           className="bg-slate-950 text-left py-2 my-4 rounded"
