@@ -96,12 +96,11 @@ const Experience = () => {
 
       {/* ------------- */}
 
-      <div className=" grid grid-cols-1 md:grid-cols-2 gap-5 mx-20 pt-20">
-        <div
-          data-aos="fade-right"
-          className="bg-slate-950 text-left py-2 my-4 rounded"
-        >
-          <p className="pl-10">HTML</p>
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-5 mx-20 pt-20">
+        <div className="bg-slate-950 text-left py-2 my-4 rounded">
+          <p data-aos="fade-right" className="pl-10">
+            HTML
+          </p>
           <progress
             className="progress progress-success"
             value="90"
@@ -109,11 +108,10 @@ const Experience = () => {
           ></progress>
         </div>
 
-        <div
-          data-aos="fade-left"
-          className="bg-slate-950 text-left py-2 my-4 rounded"
-        >
-          <p className="pl-10">Tailwind CSS</p>
+        <div className="bg-slate-950 text-left py-2 my-4 rounded">
+          <p data-aos="fade-left" className="pl-10">
+            Tailwind CSS
+          </p>
           <progress
             className="progress progress-success"
             value="90"
@@ -121,11 +119,10 @@ const Experience = () => {
           ></progress>
         </div>
 
-        <div
-          data-aos="fade-right"
-          className="bg-slate-950 text-left py-2 my-4 rounded"
-        >
-          <p className="pl-10">JavaScript</p>
+        <div className="bg-slate-950 text-left py-2 my-4 rounded">
+          <p data-aos="fade-right" className="pl-10">
+            JavaScript
+          </p>
           <progress
             className="progress progress-success"
             value="80"
@@ -133,11 +130,10 @@ const Experience = () => {
           ></progress>
         </div>
 
-        <div
-          data-aos="fade-left"
-          className="bg-slate-950 text-left py-2 my-4 rounded"
-        >
-          <p className="pl-10">ReactJS</p>
+        <div className="bg-slate-950 text-left py-2 my-4 rounded">
+          <p data-aos="fade-left" className="pl-10">
+            ReactJS
+          </p>
           <progress
             className="progress progress-success"
             value="80"
@@ -145,11 +141,10 @@ const Experience = () => {
           ></progress>
         </div>
 
-        <div
-          data-aos="fade-right"
-          className="bg-slate-950 text-left py-2 my-4 rounded"
-        >
-          <p className="pl-10">ExpressJS</p>
+        <div className="bg-slate-950 text-left py-2 my-4 rounded">
+          <p data-aos="fade-right" className="pl-10">
+            ExpressJS
+          </p>
           <progress
             className="progress progress-success"
             value="70"
@@ -157,11 +152,10 @@ const Experience = () => {
           ></progress>
         </div>
 
-        <div
-          data-aos="fade-left"
-          className="bg-slate-950 text-left py-2 my-4 rounded"
-        >
-          <p className="pl-10">MongoDB</p>
+        <div className="bg-slate-950 text-left py-2 my-4 rounded">
+          <p data-aos="fade-left" className="pl-10">
+            MongoDB
+          </p>
           <progress
             className="progress progress-success"
             value="80"
