@@ -105,7 +105,10 @@ const Experience = () => {
             max="100"
           ></progress>
         </div>
-        <div data-aos="fade-left" className="bg-slate-950 text-left py-2 my-4 rounded">
+        <div
+          data-aos="fade-left"
+          className="bg-slate-950 text-left py-2 my-4 rounded"
+        >
           <p className="pl-10">Tailwind CSS</p>
           <progress
             className="progress progress-success"
@@ -121,7 +124,10 @@ const Experience = () => {
             max="100"
           ></progress>
         </div>
-        <div className="bg-slate-950 text-left py-2 my-4 rounded">
+        <div
+          data-aos="fade-left"
+          className="bg-slate-950 text-left py-2 my-4 rounded"
+        >
           <p className="pl-10">ReactJS</p>
           <progress
             className="progress progress-success"
