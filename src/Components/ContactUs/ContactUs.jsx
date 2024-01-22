@@ -1,8 +1,18 @@
-import React, { useRef } from 'react';
+import React, { useEffect, useRef } from 'react';
 import emailjs from '@emailjs/browser';
 import Swal from 'sweetalert2';
+import Aos from 'aos';
+import 'aos/dist/aos.css';
 
 const ContactUs = () => {
+  useEffect(() => {
+    Aos.init({
+      duration: 1000,
+      easing: 'ease-in-out',
+      once: true,
+    });
+  }, []);
+
   const form = useRef();
 
   const sendEmail = (e) => {
@@ -45,7 +55,7 @@ const ContactUs = () => {
 
       <section className="py-6 text-gray-50">
         <div className="grid max-w-6xl grid-cols-1 px-6 mx-auto lg:px-8 md:grid-cols-2 md:divide-x">
-          <div className="py-6 md:py-0 md:px-6">
+          <div data-aos="fade-right" className="py-6 md:py-0 md:px-6">
             <h1 className="text-4xl font-bold">Get in touch</h1>
             <p className="pt-2 pb-4">
               Fill in the form to start a conversation
