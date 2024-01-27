@@ -3,7 +3,7 @@ const Header = () => {
     const pdfUrl = 'assets/Resume - Abu Ratin Shoeb.pdf';
     const link = document.createElement('a');
     link.href = pdfUrl;
-    link.download = 'document.pdf'; // specify the filename
+    link.download = 'document.pdf';
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
