@@ -1,18 +1,11 @@
-import { useEffect, useState } from 'react';
+import { useEffect } from 'react';
 import ProjectsCard from './ProjectsCard';
 import Aos from 'aos';
 import 'aos/dist/aos.css';
+import useGetAllData from '../../Hooks/useGetAllData';
 
 const Projects = () => {
-  const [projects, setProjects] = useState();
-
-  useEffect(() => {
-    fetch('/data.json')
-      .then((res) => res.json())
-      .then((data) => {
-        setProjects(data);
-      }, []);
-  });
+  const [data, isLoading] = useGetAllData();
 
   useEffect(() => {
     Aos.init({
@@ -36,7 +29,7 @@ const Projects = () => {
           data-aos="zoom-out"
           className="grid grid-cols-1 place-items-center lg:grid-cols-3 gap-5 mx-20 pb-36"
         >
-          {projects?.map((project) => (
+          {data?.map((project) => (
             <ProjectsCard key={project.id} project={project}></ProjectsCard>
           ))}
         </div>
