@@ -13,7 +13,7 @@ const Experience = () => {
   return (
     <div
       id="experience"
-      className="py-20 max-w-screen-2xl mx-auto text-slate-100 text-center bg-base-200"
+      className="py-20 max-w-screen-2xl mx-auto text-slate-100 text-center bg-base-300"
     >
       <p className="text-teal-400 text-lg">Education & Skills</p>
       <h1 className="text-2xl md:text-5xl font-semibold leading-tight  mt-10 mb-20">
