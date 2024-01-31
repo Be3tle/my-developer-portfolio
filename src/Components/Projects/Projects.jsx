@@ -17,7 +17,7 @@ const Projects = () => {
   return (
     <div
       id="projects"
-      className="py-10 text-slate-100 text-center bg-slate-950"
+      className="py-10 text-slate-100 text-center bg-black"
     >
       <div className="max-w-screen-xl mx-auto">
         <p className="text-teal-400 text-lg">My Portfolio</p>
