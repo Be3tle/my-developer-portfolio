@@ -10,7 +10,7 @@ const Header = () => {
   };
 
   return (
-    <div id="header" className="hero min-h-screen bg-base-200 text-white">
+    <div id="header" className="hero min-h-screen bg-base-300 text-white">
       <div className="hero-content flex-col lg:flex-row-reverse  gap-20 lg:gap-56">
         <img
           src="assets/1702298976011.png"
