@@ -68,7 +68,7 @@ const Experience = () => {
               </h1>
               <p className="py-6">
                 {
-                  "Pursuing a Bachelor's in English, diving into the world of literature and language to sharpen critical thinking and communication skills."
+                  "Pursuing a Bachelor's in English, diving into the world of language and literature to sharpen critical thinking and communication skills."
                 }
               </p>
             </div>
