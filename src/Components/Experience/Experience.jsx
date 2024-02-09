@@ -21,7 +21,7 @@ const Experience = () => {
       </h1>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
         {/* 1 */}
-        <div data-aos="fade-left" className="hero">
+        <div data-aos="fade-up" className="hero">
           <div className="hero-content text-left">
             <div className="max-w-xl">
               <button className="btn border-[1px] mb-3 border-teal-400">
