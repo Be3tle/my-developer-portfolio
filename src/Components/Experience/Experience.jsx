@@ -131,7 +131,7 @@ const Experience = () => {
         </div>
 
         <div className="bg-slate-950 text-left py-2 my-4 rounded">
-          <p data-aos="fade-left" className="pl-10">
+          <p data-aos="fade-up" className="pl-10">
             ReactJS
           </p>
           <progress
