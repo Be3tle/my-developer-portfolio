@@ -21,12 +21,12 @@ const Services = () => {
           Crafting stories through <br />
           development and innovation
         </h1>
-        <div
-          data-aos="zoom-in"
-          className="grid grid-cols-1 place-items-center lg:grid-cols-3 mx-auto gap-10"
-        >
+        <div className="grid grid-cols-1 place-items-center lg:grid-cols-3 mx-auto gap-16 lg:gap-10">
           {/* 1 */}
-          <div className="card w-80 lg:w-96 lg:h-80 flex border-[1px] border-gray-700 relative">
+          <div
+            data-aos="zoom-in"
+            className="card w-80 lg:w-96 lg:h-80 flex border-[1px] border-gray-700 relative"
+          >
             <MdPublic className="text-9xl text-teal-400 absolute bottom-80 left-24 lg:bottom-60 lg:left-32" />
             <div className="p-10">
               <h2 className="text-2xl font-semibold my-10">
@@ -42,7 +42,10 @@ const Services = () => {
           </div>
 
           {/* 2 */}
-          <div className="card w-80 lg:w-96 lg:h-80 flex border-[1px] border-gray-700 relative">
+          <div
+            data-aos="zoom-in"
+            className="card w-80 lg:w-96 lg:h-80 flex border-[1px] border-gray-700 relative"
+          >
             <DiResponsive className="text-[200px] text-teal-400 absolute bottom-60 left-16 lg:bottom-56 lg:left-24" />
             <div className="p-10">
               <h2 className="text-2xl font-semibold my-10">
@@ -57,7 +60,10 @@ const Services = () => {
           </div>
 
           {/* 3 */}
-          <div className="card w-80 lg:w-96 lg:h-80 flex border-[1px] border-gray-700 relative">
+          <div
+            data-aos="zoom-in"
+            className="card w-80 lg:w-96 lg:h-80 flex border-[1px] border-gray-700 relative"
+          >
             <TiCodeOutline className="text-9xl text-teal-400 absolute bottom-80 left-24 lg:bottom-64 lg:odd:left-32" />
             <div className="p-10">
               <h2 className="text-2xl font-semibold my-10">Clean Code</h2>
