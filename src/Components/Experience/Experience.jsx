@@ -98,7 +98,7 @@ const Experience = () => {
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-5 mx-20 pt-20">
         <div className="bg-slate-950 text-left py-2 my-4 rounded">
-          <p data-aos="fade-right" className="pl-10">
+          <p data-aos="fade-down" className="pl-10">
             HTML
           </p>
           <progress
