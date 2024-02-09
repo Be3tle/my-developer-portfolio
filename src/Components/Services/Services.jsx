@@ -14,10 +14,7 @@ const Services = () => {
     });
   }, []);
   return (
-    <div
-      id="services"
-      className="py-20 text-slate-100 text-center bg-black"
-    >
+    <div id="services" className="py-20 text-slate-100 text-center bg-black">
       <div className="mx-auto max-w-screen-xl">
         <p className="text-teal-400 text-lg">My Service</p>
         <h1 className="text-2xl md:text-5xl font-semibold leading-tight  mt-10 mb-32">
@@ -29,8 +26,8 @@ const Services = () => {
           className="grid grid-cols-1 place-items-center lg:grid-cols-3 mx-auto gap-10"
         >
           {/* 1 */}
-          <div className="card w-96 h-80 flex border-[1px] border-gray-700 relative">
-            <MdPublic className="text-9xl text-teal-400 absolute bottom-60 left-32" />
+          <div className="card w-80 lg:w-96 lg:h-80 flex border-[1px] border-gray-700 relative">
+            <MdPublic className="text-9xl text-teal-400 absolute bottom-80 left-24 lg:bottom-60 lg:left-32" />
             <div className="p-10">
               <h2 className="text-2xl font-semibold my-10">
                 Frontend Development
@@ -45,8 +42,8 @@ const Services = () => {
           </div>
 
           {/* 2 */}
-          <div className="card w-96 h-80 flex border-[1px] border-gray-700 relative">
-            <DiResponsive className="text-[200px] text-teal-400 absolute bottom-56 left-24" />
+          <div className="card w-80 lg:w-96 lg:h-80 flex border-[1px] border-gray-700 relative">
+            <DiResponsive className="text-[200px] text-teal-400 absolute bottom-60 left-16 lg:bottom-56 lg:left-24" />
             <div className="p-10">
               <h2 className="text-2xl font-semibold my-10">
                 Responsive Design
@@ -60,8 +57,8 @@ const Services = () => {
           </div>
 
           {/* 3 */}
-          <div className="card w-96 h-80 flex border-[1px] border-gray-700 relative">
-            <TiCodeOutline className="text-9xl text-teal-400 absolute bottom-64 left-32" />
+          <div className="card w-80 lg:w-96 lg:h-80 flex border-[1px] border-gray-700 relative">
+            <TiCodeOutline className="text-9xl text-teal-400 absolute bottom-80 left-24 lg:bottom-64 lg:odd:left-32" />
             <div className="p-10">
               <h2 className="text-2xl font-semibold my-10">Clean Code</h2>
               <p className="mt-2">
