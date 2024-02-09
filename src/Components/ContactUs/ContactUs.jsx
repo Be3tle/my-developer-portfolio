@@ -92,7 +92,7 @@ const ContactUs = () => {
             </div>
           </div>
           <form
-            data-aos="fade-left"
+            data-aos="fade-right"
             ref={form}
             onSubmit={sendEmail}
             className="flex flex-col py-6 space-y-6 md:py-0 md:px-6"
