@@ -6,7 +6,7 @@ import Typography from '@mui/material/Typography';
 import { CardActionArea } from '@mui/material';
 
 const ProjectsCard = ({ project }) => {
-  const { img1, title, subtitle, link } = project || {};
+  const { img1, title, link } = project || {};
   return (
     <div>
       <Link to={link} state={title} target="_blank">

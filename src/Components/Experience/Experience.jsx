@@ -109,7 +109,7 @@ const Experience = () => {
         </div>
 
         <div className="bg-slate-950 text-left py-2 my-4 rounded">
-          <p data-aos="fade-up" className="pl-10">
+          <p data-aos="flip-right" className="pl-10">
             Tailwind CSS
           </p>
           <progress
@@ -131,7 +131,7 @@ const Experience = () => {
         </div>
 
         <div className="bg-slate-950 text-left py-2 my-4 rounded">
-          <p data-aos="fade-up" className="pl-10">
+          <p data-aos="flip-right" className="pl-10">
             ReactJS
           </p>
           <progress
@@ -153,7 +153,7 @@ const Experience = () => {
         </div>
 
         <div className="bg-slate-950 text-left py-2 my-4 rounded">
-          <p data-aos="fade-up" className="pl-10">
+          <p data-aos="flip-right" className="pl-10">
             MongoDB
           </p>
           <progress
