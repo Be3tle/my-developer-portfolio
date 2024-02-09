@@ -26,7 +26,7 @@ const Projects = () => {
         </h1>
 
         <div
-          data-aos="zoom-out"
+          data-aos="zoom-in"
           className="grid grid-cols-1 place-items-center lg:grid-cols-3 gap-5 mx-20 pb-36"
         >
           {data?.map((project) => (
