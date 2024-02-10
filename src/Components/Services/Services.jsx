@@ -64,7 +64,7 @@ const Services = () => {
             data-aos="zoom-in"
             className="card w-80 lg:w-96 lg:h-80 flex border-[1px] border-gray-700 relative"
           >
-            <TiCodeOutline className="text-9xl text-teal-400 absolute bottom-72 left-24 lg:bottom-64 lg:left-32" />
+            <TiCodeOutline className="text-9xl text-teal-400 absolute bottom-[307px] left-24 lg:bottom-64 lg:left-32" />
             <div className="p-10">
               <h2 className="text-2xl font-semibold my-10">Clean Code</h2>
               <p className="mt-2">
