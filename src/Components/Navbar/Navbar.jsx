@@ -59,7 +59,7 @@ const Navbar = () => {
       </div>
       <div className="navbar-end">
         <a
-          href="contact-us"
+          href="#contact"
           className="btn bg-teal-400 hover:bg-teal-500 border-0 text-black"
         >
           Hire Me
