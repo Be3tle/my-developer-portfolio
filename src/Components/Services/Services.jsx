@@ -32,7 +32,7 @@ const Services = () => {
                 Frontend Development
               </h2>
               <p className="mt-2">
-                Elevate your web development with our Frontend
+                Elevate your web development with our Front-End
                 expertise—crafting dynamic and scalable applications seamlessly
                 integrating MongoDB, Express.js, React.js, and Node.js for a
                 robust user experience.
