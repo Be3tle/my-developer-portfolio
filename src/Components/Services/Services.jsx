@@ -29,7 +29,7 @@ const Services = () => {
             <MdPublic className="text-9xl text-teal-400 absolute bottom-80 left-24 lg:bottom-60 lg:left-32" />
             <div className="p-10">
               <h2 className="text-2xl font-semibold my-10">
-                Frontend Development
+                Front-End Development
               </h2>
               <p className="mt-2">
                 Elevate your web development with our Front-End
