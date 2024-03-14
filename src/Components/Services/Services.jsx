@@ -17,8 +17,8 @@ const Services = () => {
       <div className="mx-auto max-w-screen-xl">
         <p className="text-teal-400 text-lg">My Service</p>
         <h1 className="text-2xl md:text-5xl font-semibold leading-tight  mt-10 mb-32">
-          Crafting stories through <br />
-          development and innovation
+          Crafting Stories through <br />
+          Development and Innovation
         </h1>
         <div className="grid grid-cols-1 place-items-center lg:grid-cols-3 mx-auto gap-16 lg:gap-10">
           {/* 1 */}
