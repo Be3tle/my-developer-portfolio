@@ -25,7 +25,7 @@ const Header = () => {
           <p className="py-9 text-neutral-300 text-justify">
             MERN stack enthusiast on a mission to level up from coding to
             leadership. I specialize in building web applications and am
-            determined to become a Software Engineer. Passionate about turning creative
+            determined to become a Full Stack Developer. Passionate about turning creative
             concepts into functional code, I am always up for collaborative
             projects and eager to lead dynamic teams in creating meaningful
             software solutions.
