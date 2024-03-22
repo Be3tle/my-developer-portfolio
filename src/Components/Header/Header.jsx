@@ -20,7 +20,7 @@ const Header = () => {
           <h1 className="text-2xl md:text-5xl font-bold leading-snug">
             HI, THIS IS SHOEB
             <br />
-            WEB <span className="text-teal-400">DEVELOPER</span>
+            SOFTWARE <span className="text-teal-400">ENGINEER</span>
           </h1>
           <p className="py-9 text-neutral-300 text-justify">
             MERN stack enthusiast on a mission to level up from coding to
