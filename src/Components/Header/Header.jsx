@@ -23,7 +23,7 @@ const Header = () => {
             WEB <span className="text-teal-400">DEVELOPER</span>
           </h1>
           <p className="py-9 text-neutral-300 text-justify">
-            MERN stack enthusiast on a mission to level up from coding to
+            MERN stack developer on a mission to level up from coding to
             leadership. I specialize in building web applications and am
             determined to become a Full Stack Developer. Passionate about turning creative
             concepts into functional code, I am always up for collaborative
